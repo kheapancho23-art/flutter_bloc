@@ -1,4 +1,4 @@
-name: kheapancho_assignment
+name: kheapancho_flutter
 description: A Flutter project using Bloc/Cubit for state management.
 publish_to: 'none' # Prevents accidental publishing
 
