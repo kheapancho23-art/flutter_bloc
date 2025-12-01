@@ -1,35 +1,16 @@
-name: kheapancho_flutter
-description: A Flutter project using Bloc/Cubit for state management.
-publish_to: 'none' # Prevents accidental publishing
+name: flutter_bloc
+description: "A new Flutter project."
 
-version: 1.0.0+1
+publish_to: 'none'
+version: 1.0.0
 
 environment:
-  sdk: '>=3.0.0 <4.0.0' # Adjust based on your current Dart SDK version
+  sdk: '>=3.2.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-
-  # --- State Management & Architecture ---
-  flutter_bloc: ^8.1.3   # 🚀 The main Flutter integration for Bloc
-  bloc: ^8.1.2           # The core BLoC library (often implicitly included)
-  equatable: ^2.0.5      # Simplifies object comparison for state/models
-
-  # --- Local Persistence (as used in the project requirements) ---
-  hive: ^2.2.3           # Fast, simple NoSQL database
-  hive_flutter: ^1.1.0   # Flutter integration for Hive
-  path_provider: ^2.1.2  # Required by Hive to find the app's directory
-  uuid: ^4.3.3           # For generating unique IDs for list items
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^3.0.0  # Recommended for style and quality checking
-  
-  # Required to generate Hive adapters (.g.dart files) and others (like freezed/json_serializable)
-  build_runner: ^2.4.8 
-  hive_generator: ^2.0.1 
+  flutter_bloc: ^8.1.5
 
 flutter:
   uses-material-design: true
